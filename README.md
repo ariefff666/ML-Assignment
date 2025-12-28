@@ -31,7 +31,7 @@ pipenv shell
 pip install -r requirements.txt
 ```
 
-## 🚀 Cara Menjalankan Dashboard локаl
+## 🚀 Cara Menjalankan Dashboard Lokal
 
 ```bash
 streamlit run dashboard.py
@@ -58,15 +58,23 @@ Dashboard akan otomatis terbuka di browser (biasanya di `http://localhost:8501`)
     - **Cluster Sedang:** Kondisi cuaca stabil.
     - **Cluster Sangat Kotor:** Didominasi oleh suhu rendah, angin tenang, dan tanpa hujan (khas musim dingin).
 
-## ☁️ Cara Deploy ke Streamlit Cloud
-Untuk membuat dashboard ini dapat diakses secara online:
+## 📸 Screenshots Dashboard
 
-1.  Pastikan proyek ini sudah di-upload ke repository **GitHub** Anda.
-2.  Buka [share.streamlit.io](https://share.streamlit.io/) dan login dengan akun GitHub.
-3.  Klik **"New app"**.
-4.  Pilih repository GitHub proyek ini, branch (biasanya `main`), dan file utama (`dashboard.py`).
-5.  Klik **"Deploy"**.
-6.  Salin URL aplikasi yang sudah jadi dan tempelkan di bagian "Link Dashboard" di atas.
+### 1. Tampilan Utama Dashboard & Key Metrics
+![Dashboard Overview](img/dashboard_overview.png)
+
+### 2. Exploratory Data Analysis
+
+![Exploratory Data Analysis](img/eda.png)
+
+### 3. Analisis Tren & Musiman
+![Trend Analysis](img/trend_analysis.png)
+
+### 4. Analisis Faktor & Cuaca
+![Weather Analysis](img/weather_analysis.png)
+
+### 5. Clustering Analysis
+![Clustering](img/clustering_analysis.png)
 
 ---
 **Created by Muhammad Arief Pratama | ML Assignment GDGoC 2025**
