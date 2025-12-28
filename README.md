@@ -5,7 +5,7 @@ Proyek ini bertujuan untuk menganalisis kualitas udara di Beijing menggunakan da
 
 Hasil analisis disajikan dalam bentuk dashboard interaktif berbasis **Streamlit** untuk memudahkan eksplorasi data.
 
-🔗 **Link Dashboard:** [Masukkan Link Streamlit App Anda di Sini]
+🔗 **Link Dashboard:** https://ml-assignment-gdgoc2025.streamlit.app/
 
 ## 📂 Dataset
 Dataset yang digunakan adalah **Beijing Multi-Site Air-Quality Data**.
